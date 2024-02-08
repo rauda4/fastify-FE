@@ -1,0 +1,29 @@
+{
+  "name": "fastifyfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/static": "^6.12.0",
+    "@fastify/view": "^8.2.0",
+    "eta": "^3.2.0",
+    "fastify": "^4.26.0",
+    "fastify-plugin": "^4.5.1",
+    "jwt-decode": "^4.0.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
